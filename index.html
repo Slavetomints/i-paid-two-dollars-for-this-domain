@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>by jove they're lesbians harold</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* Rainbow background */
+    body {
+      background: linear-gradient(
+        to bottom,
+        #E40303 0%,
+        #E40303 16.66%,
+        #FF8C00 16.66%,
+        #FF8C00 33.33%,
+        #FFED00 33.33%,
+        #FFED00 50%,
+        #008026 50%,
+        #008026 66.66%,
+        #004DFF 66.66%,
+        #004DFF 83.33%,
+        #750787 83.33%,
+        #750787 100%
+      );
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    .trans-flag {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 120vmin;
+      height: 72vmin;
+      transform: translate(-50%, -50%);
+      animation: spin 20s linear infinite;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
+    }
+
+    .stripe {
+      width: 100%;
+      height: 20%;
+    }
+
+    .blue  { background: #5BCEFA; }
+    .pink  { background: #F5A9B8; }
+    .white { background: white; }
+
+    @keyframes spin {
+      to {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="trans-flag">
+    <div class="stripe blue"></div>
+    <div class="stripe pink"></div>
+    <div class="stripe white"></div>
+    <div class="stripe pink"></div>
+    <div class="stripe blue"></div>
+  </div>
+</body>
+</html>
